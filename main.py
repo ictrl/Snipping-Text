@@ -3,11 +3,11 @@ import numpy as np
 import pytesseract
 from PIL import Image
 
-#installation path of Tesseract-OCR
+# Path of Tesseract-OCR
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"
 
 # Path of working folder on Disk
-src_path = "C:/Users/cools/OneDrive/Desktop/imageToText/"
+src_path = "C:/Users/cools/OneDrive/Desktop/Snipping-Cheat/"
 
 def get_string(img_path):
     # Read image with opencv
