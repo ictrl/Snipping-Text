@@ -7,7 +7,7 @@ from PIL import Image
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"
 
 # Path of working folder on Disk
-src_path = "C:/Users/cools/OneDrive/Desktop/Snipping-Cheat/"
+src_path = "C:/Users/cools/OneDrive/Documents/Lightshot/"
 
 def get_string(img_path):
     # Read image with opencv
@@ -36,9 +36,10 @@ def get_string(img_path):
     # Remove template file
     os.remove(src_path + "thres.png")
     os.remove(src_path + "removed_noise.png")
+    os.remove(src_path + "Screenshot_1.png")
 
     return result
 
-f= open("Sample.txt","w+")
-f.write(get_string(src_path + "Sample.png"))
-os.startfile("Sample.txt")
+f= open("Content.txt","w+")
+f.write(get_string(src_path + "Screenshot_1.png"))
+os.startfile("Content.txt")
