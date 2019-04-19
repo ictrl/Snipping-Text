@@ -1,5 +1,0 @@
-import cv2, 08
-
-import numpy as np
-import pytesseract
-from PIL import Image
