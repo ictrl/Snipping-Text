@@ -1,0 +1,23 @@
+# Write image after removed noise
+cv2.imwrite("finalPic.png", img)
+
+t
+
+result = pytesseract.image_to_string(Image.open (
+
+# Recognize text with t
+
+  
+
+for python
+
+ois
+
+return result
+
+4 f= open("Content.txt","w+")
+(# f.write(getContent("NpImg"))
+
+getContenti("NpImg")
+
+e ("Content. txt")
